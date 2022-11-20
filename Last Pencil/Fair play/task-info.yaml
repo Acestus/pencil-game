@@ -268,5 +268,49 @@ files:
         LastPencilTest().run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/258/stages/1305/implement#comment
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Wrong answer in test #16
+
+    When one of the players enters the number of pencils they want to remove, the program should print 2 non-empty lines.
+
+    Please find below the output of your program during this failed test.
+    Note that the '>' character indicates the beginning of the input line.
+
+    ---
+
+    How many pencils would you like to use:
+    > 5
+    Who will be first? (Idaho, Leto):
+    > IdahoLeto
+    Choose between 'Idaho' and 'Leto'
+    > IdahoLeto
+    Choose between 'Idaho' and 'Leto'
+    > IdahoLeto
+    Choose between 'Idaho' and 'Leto'
+    > IdahoLeto
+    Choose between 'Idaho' and 'Leto'
+    > IdahoLeto
+    Choose between 'Idaho' and 'Leto'
+    > Idaho
+    |||||
+    IdahoLeto's turn!
+    > 4
+    Possible values: '1', '2', or '3'
+    > a
+    Possible values: '1', '2', or '3'
+    > 0
+    Possible values: '1', '2', or '3'
+    > -1
+    Possible values: '1', '2', or '3'
+    > _
+    Possible values: '1', '2', or '3'
+    > |
+    Possible values: '1', '2', or '3'
+    > |||||
+    Possible values: '1', '2', or '3'
+    > 2
+    Possible values: '1', '2', or '3'
+  time: "Sun, 20 Nov 2022 06:01:06 UTC"
 record: -1
